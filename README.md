@@ -1,7 +1,7 @@
 1. **Installation and Execution** (takes about **1 minute**):
 
    ```bash
-   cd /path/to/backtest
+   cd /path/to/project
    pip install -r requirements.txt
    python backtest.py
 
