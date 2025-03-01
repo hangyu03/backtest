@@ -233,7 +233,7 @@ class TFTBacktester:
         plt.legend()
         plt.grid()
         plt.savefig('output_backtest_result/IC.png', dpi=300, bbox_inches='tight')
-        plt.show()
+        # plt.show()
 
     def plot_net(self, net_net, perf_df):
         """
@@ -289,7 +289,7 @@ class TFTBacktester:
         plt.legend(fontsize=14, loc='lower left')
         plt.grid()
         plt.savefig('output_backtest_result/net_value_plot.png', dpi=300, bbox_inches='tight')
-        plt.show()
+        # plt.show()
 
     # ============= Main Execution Logic ============= #
     def run(self):
